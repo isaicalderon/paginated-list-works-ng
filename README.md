@@ -1,27 +1,56 @@
-# PaginatedListWorks
+# Frontend Coding Exercise using Crossref
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+We would like you to build a small web application displaying job listings using Angular (version 8 or higher). Your web app should use Crossref’s public API, a link about Crossref and their documentation is provided below. Please feel free to use other technologies as you see fit. You have complete creative control over how the web app looks and functions.
 
-## Development server
+Once you have completed this exercise, please answer the follow up questions below. Be sure to save your answers in a single markdown file named FOLLOW-UP.md and send your recruiter a link to the Github repository.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Task Requirements
 
-## Code scaffolding
+Feel free to spend as much or as little time on the exercise as you like as long as you complete the Minimum User Story below. If time allows, feel free to complete the Preferred User Stories as well. Please be sure to include unit tests for all User Story features implemented.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## API Documentation
 
-## Build
+**Make sure to follow Crossref’s public API etiquette guidelines**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+https://www.crossref.org
+https://api.crossref.org
 
-## Running unit tests
+## Minimum User Story
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+As a user of the web app
+I can view a paginated list of works (academic articles, publications, etc) from Crossref’s API
+So that I can know what articles are currently available
+```
 
-## Running end-to-end tests
+```
+As a user
+When I interact with the app
+It should be accessible
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Preferred User Stories (including the minimum, required for senior level positions)
 
-## Further help
+```
+As a user of the web app
+I can search the content of works from Crossref’s API
+So that I can easily find the kind of work’s I am looking for
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+As a user of the web app
+I can click on a work from Crossref’s API
+So that I can view more details about the academic work
+```
+
+## Submission Guidelines:
+
+1. Commit everything to a public Github repository
+2. Send the Github repository link to your recruiter
+
+### Follow Up Questions:
+
+1. What libraries did you use? Why did you use them?
+2. If you had more time, what further improvements or new features would you add?
+3. Which parts are you most proud of? And why?
+4. Which parts did you spend the most time with? What did you find most difficult?

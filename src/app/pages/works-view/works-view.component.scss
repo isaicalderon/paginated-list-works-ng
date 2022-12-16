@@ -1,0 +1,43 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td,
+th {
+  width: 25%;
+}
+
+.publisher {
+  color: #999cb0;
+}
+
+.author {
+  color: #394160 !important;
+  // font-weight: bold;
+}
+
+p {
+  font-weight: bold;
+
+  span {
+    font-weight: lighter;
+  }
+}
+
+.list {
+  border-bottom: 2px solid #ccc;
+  padding: 10px;
+  
+  :last-child {
+    border: none;
+  }
+}

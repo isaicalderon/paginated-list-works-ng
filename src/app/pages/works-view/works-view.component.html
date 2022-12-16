@@ -1,0 +1,29 @@
+<div class="row">
+  <div class="col-md-12">
+    <h2>{{message.title}}</h2>
+    <p class="publisher">Publisher: <span><i>{{message.publisher}}</i></span></p>
+    <div class="mb-4">
+      <span class="author" *ngFor="let autor of message.author">{{autor | authorPipe}}; </span>
+      <span><a class="author" href="#">See all...</a></span>
+    </div>
+
+    <mat-divider></mat-divider>
+
+    <div class="mt-3">
+      <p>Published in: <span>{{message['container-title']}}</span><span> (Volume: {{message.volume}}, Issue:
+          {{message.issue}})</span></p>
+
+      <div class="row">
+        <div class="col-md-6">
+          <p>Page(s): <span>{{message.page}}</span></p>
+          <p>Print ISSN: <span>{{message.ISSN}}</span></p>
+        </div>
+        <div class="col-md-6">
+          <p>DOI: <span>{{message.DOI}}</span></p>
+        </div>
+      </div>
+
+      <button mat-flat-button color="primary" routerLink="/list"><mat-icon>arrow_back</mat-icon> Back </button>
+    </div>
+  </div>
+</div>
